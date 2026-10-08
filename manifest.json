@@ -1,6 +1,6 @@
 {
   "schema": 1,
-  "generated_at": "2026-10-01T07:00:00+07:00",
+  "generated_at": "2026-10-08T19:19:27+07:00",
   "app": {
     "version": "0.0.1",
     "url": null,
@@ -8,15 +8,15 @@
     "notes": "Chua co ban phat hanh. Se dien o Phase 7."
   },
   "offsets": {
-    "roblox_version": "version-02c37bc51a384b8f",
-    "url": "https://github.com/hoanglonggg79/External/releases/download/offsets-72192012/offsets.json",
-    "sha256": "721920126af8364fde1766a20629c2d4879041bed704431445b0396443457abe",
-    "dumped_at": "20:12 29/09/2026",
+    "roblox_version": "version-cec3ad5889b447cf",
+    "url": "https://github.com/hoanglonggg79/External/releases/download/offsets-6ca9a83b/offsets.json",
+    "sha256": "6ca9a83bc8e973bd76b3e0f6dabe0983f8c9580dc1c5fdb88a42fa10388f367c",
+    "dumped_at": "07:23 06/10/2026",
     "dumper": "RbxDumperV2 2.2.4",
     "source": "https://offsets.imtheo.lol",
     "total_offsets": 393,
     "local_path": "core/offsets/offsets.seed.json",
-    "verified": "01/10/2026 - --probe 6/6 PASS tren may that",
-    "notes": "Snapshot 01/10/2026 tu offsets.imtheo.lol/offsets.json. Thay the version-2366ba214ec740ca (dump 06:43 22/09/2026; ban cu luu o core/offsets/archive/offsets.version-2366ba214ec740ca.json). 12/393 offset doi gia tri; trong do 2 offset Kizaru dang dung: FakeDataModel.Pointer va VisualEngine.Pointer (ca hai la DIA CHI MODULE, doi theo tung build). Da nghiem thu bang --probe 6/6 PASS tren may that (leader xac nhan)."
+    "verified": "08/10/2026 - --probe 6/6 PASS tren may that (PID 12036)",
+    "notes": "Snapshot 08/10/2026 tu offsets.imtheo.lol/offsets.json (doi chieu version + Dumped At + gia tri offset khop upstream). Thay the version-02c37bc51a384b8f (ban cu luu o core/offsets/archive/offsets.version-02c37bc51a384b8f.json). 24/393 offset doi gia tri, TRONG DO co offset struct Kizaru dang dung: World.Primitives 0x2b0->0x2c8 (wall check) va Humanoid.HumanoidRootPart 0x458->0x460. --no-process PASS + --probe 6/6 PASS 08/10 (PID 12036, LocalPlayer hoanglongjetzet, HRP hop le, viewport KHOP client rect)."
   }
 }
